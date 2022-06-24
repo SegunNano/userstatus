@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+</head>
+
+<style>
+    .con1 {
+        display: flex;
+        margin-top: 5px;
+    }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        border-spacing: 0px;
+    }
+    tbody {
+        background-color: white;
+    }
+    body  {
+        font-family: sans-serif;
+        font-size: smaller;
+        background-color: rgb(227, 248, 248);
+    }
+
+    .head {
+        background-color: rgb(227, 248, 248);
+    }
+
+    th,td {
+        padding: 2px 30px;
+        border-bottom: 5px solid rgb(227, 248, 248);
+    };
+
+    tr {
+        border-color: black;
+    }
+
+    .textcon {
+        display: block;
+        margin-top: -15px;
+        margin-left: 5px;
+    }
+    .username {
+        margin-top: -9px;
+        font-size: 8px;
+        color: rgb(83, 83, 83);
+    }
+    img {
+        border-radius: 15px;
+
+    }
+    button {
+        background-color: blue;
+        color: white;
+        border: 0px;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color: rgb(212, 230, 247);
+    }
+    .font {
+        font-size: 10px;
+    }
+    .active, .inactive {
+        height: 5px;
+        width: 5px;
+        border-radius: 2.5px;
+        border: none;
+        margin: 12px 5px 0px 0px;
+    }
+    .active {
+        background-color: rgb(9, 228, 137);
+    }
+    .inactive {
+        background-color: red;
+    }
+    .con2 {
+        display: flex;
+    }
+    .name {margin-top: 17px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+   tbody>tr:hover {
+    background-color: whitesmoke;
+   }
+</style>
+
+<body>
+
+    <h1>Users</h1>
+
+    <table>
+        <thead class="head">
+            <tr>
+                <th>User</th>
+                <th>Status</th>
+                <th>Location</th>
+                <th>Phone</th>
+                <th>Contact</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <div class="con1">
+                        <div class="dp">
+                            <img src="p1.jpeg" alt="" height="25px" width="25px">
+                        </div>
+                        <div class="textcon">
+                                <p class="name">Kiran Acharya</p>
+                                <p class="username">@kiranacharyaa</p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="con2">
+                        <div class="active"></div>
+                        <div class="font">
+                            <p>Active</p>
+                        </div>
+                    </div>
+                </td>
+
+                <td class="font">Banglore</td>
+
+                <td class="font">+91 9676543215</td>
+
+                <td>
+                    <button class="font">Contact</button>
+                </td>
+
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <div class="con1">
+                        <div class="dp">
+                            <img src="p2.jpeg" alt="" height="25px" width="25px">
+                        </div>
+                        <div class="textcon">
+                            <p class="name">Sandeep Hegde</p>
+                            <p class="username">@sandeep</p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="con2">
+                        <div class="active"></div>
+                        <div class="font">
+                            <p>Active</p>
+                        </div>
+                    </div>
+                </td>
+
+                <td class="font">Banglore</td>
+
+                <td class="font">+91 9676543215</td>
+
+                <td>
+                    <button class="font">Contact</button>
+                </td>
+
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="con1">
+                        <div class="dp">
+                            <img src="p3.jpeg" alt="" height="25px" width="25px">
+                        </div>
+                        <div class="textcon">
+                            <p class="name">John Doe</p>
+                            <p class="username">@johndoe</p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="con2">
+                        <div class="active"></div>
+                        <div class="font">
+                            <p>Active</p>
+                        </div>
+                    </div>
+                </td>
+
+                <td class="font">Banglore</td>
+
+                <td class="font">+91 9676543215</td>
+
+                <td>
+                    <button class="font">Contact</button>
+                </td>
+
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="con1">
+                        <div class="dp">
+                            <img src="p4.jpeg" alt="" height="25px" width="25px">
+                        </div>
+                        <div class="textcon">
+                            <p class="name">Vishwanath</p>
+                            <p class="username">@vishwanath</p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="con2">
+                        <div class="inactive"></div>
+                        <div class="font">
+                            <p>Inactive</p>
+                        </div>
+                    </div>
+                </td>
+
+                <td class="font">Banglore</td>
+
+                <td class="font">+91 9676543215</td>
+
+                <td>
+                    <button class="font">Contact</button>
+                </td>
+
+                <td></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+</html>
